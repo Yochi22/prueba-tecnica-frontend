@@ -1,0 +1,118 @@
+/* Estilos para la lista de categorías */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(187, 187, 187);
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Ejemplo: 3 columnas con igual ancho */
+    grid-gap: 20px; /* Espacio entre elementos */
+    
+  }
+  
+  /* Estilos para cada elemento de la lista */
+  li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: linear-gradient(to bottom, #6341ff, #2706bb);
+    color: white;
+  }
+  
+  /* Estilos para los botones */
+  button {
+    margin-top: 10px;
+
+    display: inline-block;
+  padding: 10px 20px;
+  background-color: #78fa0dd2;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+
+  .button:hover {
+    background-color: #3700ff;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+  .button.animate {
+    animation: pulse 1s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .button1 {
+    margin-left: 30px;
+  }
+
+
+
+  h1{
+    color: #380bff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .container {
+    padding: 7px;
+    text-align: center;
+  }
+
+  .container2 {
+    margin: 25px;
+    padding: 7px;
+  }
+  
+  .container {
+    margin-bottom: 10px;
+  }
+  
+  li button {
+    margin-right: 10px;
+  }
+
+  .search-container input[type="text"]::placeholder {
+    color: #380bff;
+    font-weight: bold;
+
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .search-container input[type="text"] {
+    border-radius: 10px;
+    padding: 3px;
+    width: 200px; /* Ajusta el ancho del input */
+    font-size: 16px;
+  }
+
+  .categorialista{
+    margin-top: 40px;
+  }

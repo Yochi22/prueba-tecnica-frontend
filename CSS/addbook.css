@@ -1,0 +1,50 @@
+.containercategory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"] {
+    padding: 5px;
+    width: 200px;
+  }
+  
+  form button[type="submit"] {
+    margin-top: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .buttons button {
+    margin: 0 5px;
+  }
+  
+  .boton2 {
+    margin-left: 600px;
+  }
+  .boton3 {
+    margin-left: 5px;
+  }
+
+  .editcategory {
+    margin-top: 40px;
+  }
